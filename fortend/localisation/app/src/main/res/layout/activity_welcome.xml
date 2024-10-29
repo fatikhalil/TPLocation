@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/welcomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="cursive"
+        android:text="Bienvenue dans l'Application de Localisation"
+        android:textAlignment="center"
+        android:textColor="#A26409"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/welcome_image"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/img" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeTitle"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#A26409"
+        android:text="Commencer"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
