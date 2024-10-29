@@ -65,6 +65,8 @@ Ajouter les permissions suivantes dans le fichier `AndroidManifest.xml` :
 2. Les coordonnées sont envoyées au serveur et stockées dans la base de données.
 3. La carte Google Maps dans l'application affiche les positions enregistrées avec des marqueurs.
 ## Demonstration vedio
+https://github.com/user-attachments/assets/a047aff5-506e-4d87-8b29-e3b3ead64992
+
 ## Auteur
 - KHALIL Fatima
 
